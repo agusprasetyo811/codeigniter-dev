@@ -16,8 +16,10 @@
 		<copy todir="${ci.path.dir}/application" overwrite="true">
 			<fileset dir="${ci.application.dir}" />
 		</copy>
-		<copy todir="${ci.path.dir}" file="index.php" overwrite="true">
+		<copy todir="${ci.path.dir}/system" overwrite="true">
+			<fileset dir="${ci.system.dir}" />
 		</copy>
+		<copy todir="${ci.path.dir}" file="index.php" overwrite="true"></copy>
 	</target>
 
 	<target name="build">
