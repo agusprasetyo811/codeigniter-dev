@@ -1,4 +1,4 @@
-CodeIgniter-Dev
+CodeIgniter Dev
 ===============
 
-codegniter-dev
+Codegniter dev 
